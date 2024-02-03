@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+body {
+	background-color: #DCD7C9;
+	margin: 20px;
+	color: #3F4E4F;
+	text-align: center;
+}
+
+.nameSection {
+	width: 100%;
+	background-image: url("musicBg.jpeg");
+	background-size: 100% 100%;
+	aspect-ratio: 3 / 1;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+/*    reference: https://stackoverflow.com/questions/16056591/
+font-scaling-based-on-size-of-container*/
+    font-size: 5vw;
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: #2C3639;
+}
+
+h2{
+	font-size: 35px;
+	font-family: 'Protest Guerrilla', sans-serif;
+	color: #2C3639;
+	text-align: center;
+}
+
+h3{
+	font-size: 28px;
+	color: #2C3639;
+	text-align: center;
+	text-shadow: 1px 1px #C6A664;
+}
+
+p {
+	font-size: 22px;
+}
+
+.keywords{
+	font-size: 2vw;
+	color: #3F4E4F;
+}
+
+#keyword1 {
+	position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+#keyword2 {
+	position: absolute;
+    top: 65%;
+    left: 30%;
+}
+
+#keyword3 {
+	position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+#keyword4 {
+	position: absolute;
+    top: 70%;
+    left: 70%;
+}
+
+#keyword5 {
+	position: absolute;
+    top: 50%;
+    left: 88%;
+}
+
+#keyword6 {
+	position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+#keyword7 {
+	position: absolute;
+    top: 20%;
+    left: 90%;
+}
+
+#keyword8 {
+	position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+#keyword9 {
+	position: absolute;
+    top: 10%;
+    left: 70%;
+}
+
+#keyword10 {
+	position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.Intro {
+	padding: 5px 20px;
+	background-color: #3F4E4F;
+	color: #DCD7C9;
+}
+
+#IntroText{
+	padding: 0px 5px;
+	display: inline-block;
+	width: 70%;
+	vertical-align: middle;
+}
+
+
+#DebussyPic {
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(30% - 20px);
+	text-align: right;
+}
+
+#DebussyPic img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#quote {
+	margin-left:10%;
+	margin-right:10%;
+	font-size: 35px;
+	font-family: cursive;
+	color: #8A9597;
+
+}
+
+#compositions {
+	margin-left:20%;
+	margin-right:20%;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	background-color: #FDF4E3;
+}
+
+#compositions p {
+	text-align: center;
+	color: #642424;
+	margin: 10px;
+}
+
+#funFact{
+	background-color: #3F4E4F;
+	border-radius: 25px;
+	margin:15px;
+	padding: 5px;
+}
+
+#funFact h3{
+	text-align: left;
+	margin-left: 15px;
+	color: #FDF4E3;
+	text-shadow: 2px 2px #642424;
+}
+
+#funFact p, #funFact ul{
+	font-size: 22px;
+	color: #DCD7C9;
+}
+
+span{
+	font-size: 25px;
+	color: #FDF4E3;
+	text-shadow: 2px 2px #642424;
+}
